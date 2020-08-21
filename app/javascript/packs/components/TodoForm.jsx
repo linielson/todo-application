@@ -40,7 +40,7 @@ class TodoForm extends React.Component {
               type="text"
               name="title"
               ref={this.titleRef}
-              // required
+              required
               className="form-control"
               id="title"
               placeholder="Write your todo item here..."
